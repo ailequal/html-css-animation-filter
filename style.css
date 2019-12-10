@@ -98,13 +98,13 @@
 }
 
 .ex-5-square {
-  transition: transform 1s;
+  transition: transform 2s;
+}
+.ex-5-square:hover {
+  transform: scale(1.6);
 }
 .ex-5-square:active {
   transform: scale(0.8);
-}
-.ex-5-square:hover {
-  transform: scale(1.2);
 }
 
 .ex-6-img {
