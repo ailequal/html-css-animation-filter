@@ -67,3 +67,18 @@
     width: 60px;
     height: 20px;
 }
+
+/* Soluzione */
+.ex-1-square {
+  transition: background-color 3s;
+}
+.ex-1-square:hover {
+  background-color: red;
+}
+
+.ex-2-square {
+  transition: width 3s;
+}
+.ex-2-square:active {
+  width: 100%;
+}
